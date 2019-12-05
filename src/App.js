@@ -7,7 +7,7 @@ import { Route, Link } from "react-router-dom"
 const App = () => (
   <div>
     <Navigation />
-    <Route path="/" Component={Home}/>
+    <Route exact path="/" Component={Home}/>
     <Route path="/about" Component={About}/>
     <Route path="/contact" Component={Contact}/>
   </div>
